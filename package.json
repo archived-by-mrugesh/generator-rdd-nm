@@ -1,36 +1,14 @@
 {
-  "name": "generator-nm",
-  "version": "3.5.0",
+  "name": "generator-rdd-nm",
+  "version": "0.0.0",
   "description": "Scaffold out a node module",
   "license": "MIT",
-  "repository": "sindresorhus/generator-nm",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
   "engines": {
     "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
   },
-  "files": [
-    "app"
-  ],
-  "keywords": [
-    "yeoman-generator",
-    "plugin",
-    "boilerplate",
-    "template",
-    "scaffold",
-    "node",
-    "module",
-    "node_module",
-    "node-module",
-    "init",
-    "sindre"
-  ],
   "dependencies": {
     "humanize-url": "^1.0.1",
     "is-scoped": "^1.0.0",
@@ -53,5 +31,15 @@
     "ignores": [
       "app/templates/**"
     ]
-  }
+  },
+  "main": "test.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raisedadead/generator-rdd-nm.git"
+  },
+  "author": "Mrugesh Mohapatra <me@raisedadead.com> (https://raisedadead.com)",
+  "bugs": {
+    "url": "https://github.com/raisedadead/generator-rdd-nm/issues"
+  },
+  "homepage": "https://github.com/raisedadead/generator-rdd-nm#readme"
 }
